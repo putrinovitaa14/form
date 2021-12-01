@@ -15,6 +15,7 @@ if (isset($_POST['save'])) {
     }
 
     ?>
+    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +29,7 @@ if (isset($_POST['save'])) {
     Bahasa Indonesia: <b><?php echo $indo; ?></b> <br>
     Bahasa Inggris: <b><?php echo $ing; ?></b> <br>
     Matematika : <b><?php echo $mtk; ?></b> <br>
-    Kejuruan : <b><?php echo $kejuruan; ?></b><hr>
+    Kejuruan : <b><?php echo $kejuruan; ?></b><hr> 
     Jumlah : <b><?php echo $jumlah; ?></b><br>
     Rata-rata : <b><?php echo $rata; ?></b><br>
     Dinyatakan <b><?php echo $ket; ?></b>

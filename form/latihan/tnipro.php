@@ -21,6 +21,7 @@ if (isset($_POST['save'])) {
     <title>Document</title>
 </head>
 <body>
+
     Nama : <b><?php echo $nama; ?></b> <br>
     Jenis Kelamin : <b><?php echo $jk; ?></b> <br>
     Tinggi Badan : <b><?php echo $tb; ?></b> <br>
